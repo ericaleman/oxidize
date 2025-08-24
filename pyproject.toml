@@ -1,6 +1,6 @@
 [project]
 name = "oxidize"
-version = "0.4.1"
+version = "0.5.0"
 description = "High-performance XML to JSON streaming parser built with Rust"
 authors = [
     {name = "Eric Aleman"}
@@ -21,6 +21,9 @@ classifiers = [
     "Topic :: Software Development :: Libraries :: Python Modules",
     "Topic :: Text Processing :: Markup :: XML",
 ]
+
+[project.urls]
+Repository = "https://github.com/ericaleman/oxidize"
 
 [tool.maturin]
 module-name = "oxidize"
